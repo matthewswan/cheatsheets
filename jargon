@@ -1,0 +1,14 @@
+A file is a string on the hard drive. When you access a file, you access it as a stream.
+
+A stream is a linked list of characters. Because it's a linked list, you access the characters sequentially.
+
+tr is a program that takes two arguments, a string of characters to replace, and a string
+    of characters to replace them with
+
+grep is a program that prints each line of its standard input, if it contains the
+    characters in its arguments
+
+A programming language is a way for you to tell the computer what to do.
+Every programming language has to give you two things:
+  1. Represent data (eg our nil/numbers/string/array/hashes)
+  2. Maniputlate that data (eg methods)

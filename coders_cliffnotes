@@ -1,0 +1,103 @@
+vim commands
+  Navigation
+    Across characters
+      h,j,k,l - general movement (l,r,d,u)
+    Across words
+      w, b - jump forward/back between words
+      e - end of word
+    Across the line
+      t, f, ; - upto char, find char, repeat find
+      $, ^ - move to beginning/end of line
+    Across paragraphs
+      {,} - jump between paragraphs
+    Across the document
+      G, gg - top/bottom of file
+  Editing
+    Insert Mode
+      i - insert before current character
+      A, I - insert at end/beginning of line
+      o - insert on next line
+    Normal Mode
+      <Esc> - go to normal mode
+      Ctrl-c - go to normal mode
+      >>, << - indent
+      ctrl-r - redo
+      u - undo
+      . - repeat
+      y,p - yank(copy) paste
+      x - delete character
+      r - replace character
+      d<location> - delete through location
+    Visual Mode
+      V - highlight by line
+      Ctrl-v - highlight by char
+
+Unix Programs
+  Dir / file manipulation
+    mkdir - makes a new directory
+    cd - changes the current directory to specified directory or home directory
+    rm - removes the specified file
+    mv - moves the contents from one dir/file to another and removes the old dir/file
+    cp - copies the contents of current dir/file to new dir/file
+    ln - links one file to another
+    man ls - lists the manual of unix
+    chmod - change mode of file, i.e. +x or -x
+    vim - enter vim and create specified file name
+  Querying
+    ls -l - lists the contents of current directory
+    which - informs where the specified program is located
+    pwd - prints the working directory
+    cat - displays the contents of file, can concat multiple filenames with it also
+    date - displays the current date and time
+    tree - displays contents of directory in a 'tree' form
+    curl - displays contents of specified url
+  Stream Modifiers
+    sort - prints input lines in sorted orders
+    grep - searches input for specified argument, group regular expressions
+    tr - pulls out specified data out of an input stream
+  Ruby
+    ruby - tells shell to run the following filename through ruby. Must have a .rb extension
+    chruby - changes ruby version
+    ruby-install - installs ruby program or version
+    pry  - enters into 'pry', irb alternative that allows a more user friendly experience for all
+    seeing_is_believing - enters into seeing_is_believing, evaluates ruby code and records the results
+  Shells
+    bash - not good
+    fish - great file editor
+
+shell
+  tab - completes
+  environment variables
+    $PATH - "array" of directories, used to locate programs that can be run
+  argv
+  Named directories
+    ~  - home
+    .. - parent
+    .  - current
+    /  - root
+pry
+6 structures - hash - key, value pairs with names,
+               array - ordered(indexed) group of things,
+               numbers - ints, floats, rational, complex,
+               string - words and chars with " " around them,
+               boolean - TRUE or FALSE,
+               nil - null, void
+ruby structures-object model
+nokogiri - is an HTML, XML, SAX, and Reader parser.
+fish -
+unix
+command line
+linked lists
+oop
+syntax (synseer)
+typing
+Shebang!
+making friends
+influencing people
+git
+hard skills/soft skills
+environmental variables
+boolean expressons
+loops
+heuristics
+
